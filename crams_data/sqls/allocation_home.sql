@@ -1,0 +1,1 @@
+INSERT INTO crams_allocation_allocationhome(id, code, description) VALUES (2, 'crams', 'CRAMS');
