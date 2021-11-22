@@ -22,9 +22,7 @@ def load_zones_from_sql():
 def load_allocation_homes_from_sql():
     file_name = 'allocation_home.sql'
     sqls_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../sqls'))
-    print('sqls_dir: {}'.format(sqls_dir))
     sql_statements = open(os.path.join(sqls_dir, file_name), 'r').read()
-    print('sql_statements: {}'.format(sql_statements))
     return sql_statements
 
 
